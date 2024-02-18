@@ -1,9 +1,9 @@
 // import styles from './Error.module.css'
 
-const Error=()=>{
+const error=()=>{
   return (
     <div>Error</div>
   )
 }
 
-export default Error
+export default error

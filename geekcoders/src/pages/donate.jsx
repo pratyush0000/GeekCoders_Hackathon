@@ -1,10 +1,10 @@
 // import styles from './Donate.module.css'
 import Navbar from "../../components/Navbar"
 
-const Donate=()=>{
+const donate=()=>{
   return (
     <Navbar/>
   )
 }
 
-export default Donate
+export default donate
