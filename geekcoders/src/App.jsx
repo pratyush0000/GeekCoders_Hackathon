@@ -1,9 +1,9 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import About from './pages/About';
-import Home from './pages/Home';
-import Donate from './pages/Donate';
-import Register from './pages/Register';
-import Error from './pages/Error';
+import About from './pages/about';
+import Home from './pages/home';
+import Donate from './pages/donate';
+import Register from './pages/register';
+import Error from './pages/error';
 
 function App() {
   return (
