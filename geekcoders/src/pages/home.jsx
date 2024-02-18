@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from "../../components/Navbar";
+import Navbar from "../components/Navbar";
 import image from "../assets/image.png";
 import styles from './home.module.css';
-import Ellipses from "../../components/Ellipses";
+import Ellipses from "../components/Ellipses";
 
 const home = () => {
   return (

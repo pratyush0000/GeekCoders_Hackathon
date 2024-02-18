@@ -1,5 +1,5 @@
 // import styles from './Donate.module.css'
-import Navbar from "../../components/Navbar"
+import Navbar from "../components/Navbar"
 
 const donate=()=>{
   return (
