@@ -1,10 +1,10 @@
 // import styles from './About.module.css'
-import Navbar from "../../components/Navbar"
+import Navbar from "../components/Navbar"
 
-const About=()=>{
+const about=()=>{
   return (
     <Navbar/>
   )
 }
 
-export default About
+export default about

@@ -1,10 +1,10 @@
 // import styles from './Register.module.css'
-import Navbar from "../../components/Navbar"
+import Navbar from "../components/Navbar"
 
-const Register=()=>{
+const register=()=>{
   return (
     <Navbar/>
   )
 }
 
-export default Register
+export default register
