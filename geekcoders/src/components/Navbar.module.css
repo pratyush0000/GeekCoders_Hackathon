@@ -51,6 +51,7 @@ ul li{
     /* background-color: greenyellow; */
     height: 70px;
     margin-top: 4px;
+    cursor: pointer;
 }
 
 .removea
@@ -72,6 +73,14 @@ ul li{
 .logo {
     font-family: "Apple Gothic", sans-serif;
     color: #5E554E;
-    padding-left: 20px;
-    padding-top: 25px;
+    padding-right: 600px;
+    padding-top: 50px;
 }
+
+.logoImg {
+    height: 40px;
+    width: 50px;
+    padding-left: 20px;
+}
+
+      

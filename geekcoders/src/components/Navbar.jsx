@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import styles from './Navbar.module.css'
+import logo from '../assets/logo.png'
 
 const Navbar=()=>{
     return (
         <nav className={styles.nav}>
             <div>
-            <img src='' className={styles.logo}/>
+            <img src={logo} alt="Logo" className={styles.logoImg} />
+            </div>
+            <div>
             <h1 className={styles.logo}>TheFoodBarn</h1>
-            {/* <img src={logo} alt="" className={styles.logo}/> */}
             </div>
             <ul>
             <li><Link to="/home"  className={styles.removea} >home</Link></li>
