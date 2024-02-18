@@ -1,4 +1,4 @@
-// import styles from './Donate.module.css'
+
 import Navbar from "../components/Navbar"
 import Ellipses from "../components/Ellipses";
 
