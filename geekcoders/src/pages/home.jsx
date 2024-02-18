@@ -1,8 +1,11 @@
 // import styles from './Home.module.css'
+import Navbar from "../../components/Navbar"
 
 const Home=()=>{
   return (
-    <div>Home</div>
+      <>
+        <Navbar/>
+      </>
   )
 }
 

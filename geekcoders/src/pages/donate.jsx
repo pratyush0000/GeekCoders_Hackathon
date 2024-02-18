@@ -1,8 +1,9 @@
 // import styles from './Donate.module.css'
+import Navbar from "../../components/Navbar"
 
 const Donate=()=>{
   return (
-    <div>Donate</div>
+    <Navbar/>
   )
 }
 

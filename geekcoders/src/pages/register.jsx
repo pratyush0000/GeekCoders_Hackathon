@@ -1,8 +1,9 @@
 // import styles from './Register.module.css'
+import Navbar from "../../components/Navbar"
 
 const Register=()=>{
   return (
-    <div>Register</div>
+    <Navbar/>
   )
 }
 

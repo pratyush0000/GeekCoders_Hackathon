@@ -1,8 +1,9 @@
 // import styles from './About.module.css'
+import Navbar from "../../components/Navbar"
 
 const About=()=>{
   return (
-    <div>About Us</div>
+    <Navbar/>
   )
 }
 
