@@ -6,6 +6,7 @@ const Navbar=()=>{
         <nav className={styles.nav}>
             <div>
             <img src='' className={styles.logo}/>
+            <h1 className={styles.logo}>TheFoodBarn</h1>
             {/* <img src={logo} alt="" className={styles.logo}/> */}
             </div>
             <ul>

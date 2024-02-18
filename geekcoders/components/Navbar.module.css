@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 
+@font-face {
+    font-family: 'Apple Gothic';
+    src: url('../src/assets/AppleSDGothicNeoR.ttf') format('truetype');
+}
+
 .nav {
   height: 70px;
   width: 100%;
-  font-family: "Teko", sans-serif;
+  font-family: "Apple Gothic", sans-serif;
   
   display: flex;
   align-items: center;
@@ -53,7 +58,7 @@ ul li{
     text-decoration: none;
     color: #6C615A;
     font-size: 20px;
-    font-family: "Gothic A1", sans-serif;
+    font-family: "Apple Gothic", sans-serif;
     font-weight: 400;
     font-style: normal;
     transition: color 0.3s ease;
@@ -63,3 +68,10 @@ ul li{
     color: #F1F1F1; /* Change the color on hover */
     
   }
+
+.logo {
+    font-family: "Apple Gothic", sans-serif;
+    color: #5E554E;
+    padding-left: 20px;
+    padding-top: 25px;
+}
