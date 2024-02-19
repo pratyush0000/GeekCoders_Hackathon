@@ -30,7 +30,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px;
+    padding-right: 20px;
+    margin-top: 7%;
+    /* background-color: yellow; */
   }
   
   .text {
@@ -58,15 +61,25 @@
     background-color: #F1F1F1;
   }
   .button + .button {
-    margin-left: 17px;
+    margin-left: 20px;
   }
   .image {
     margin-top: 80px;
-    width: 700px;
-    height: 590px;
+    width: 750px;
+    /* height: 590px; */
   }
   
   .believeText {
     font-family: 'Antic Slab', serif; 
     font-size: 18px;
   }
+
+  /* .imagecontainer{
+    background-color: red;s
+  } */
+
+  /* .spacer{
+    width: 100%;
+    height: 20px;
+    background-color: blue;
+  } */
