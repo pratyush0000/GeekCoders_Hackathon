@@ -8,9 +8,11 @@ const home = () => {
   return (
     <>
       <Navbar />
+      <div style={styles.spacer}>
+      </div>
       <div className={styles.container}>
         {/* Image div */}
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1 }} className={styles.imagecontainer}>
           <img src={image} alt="The Food Barn" className={styles.image} />
         </div>
 
