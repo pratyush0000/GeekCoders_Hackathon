@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from "../components/Navbar";
 import Ellipses from "../components/Ellipses";
 import styles from './about.module.css';
+import akaash from '../assets/akaash.jpeg';
 
 const About = () => {
   const [flipped, setFlipped] = useState(null);
@@ -40,7 +41,9 @@ const About = () => {
           onMouseEnter={() => setFlipped(3)}
           onMouseLeave={() => setFlipped(null)}
         >
-          <div className={styles.square}></div>
+          <div className={styles.square}>
+                <img src={akaash} alt="Akaash Emmanuel" className={styles.aimg}/>
+          </div>
           <button className={styles.button}>Akaash Emmanuel</button>
           <div className={styles.back}>
             Additional Info for Akaash Emmanuel

@@ -135,3 +135,13 @@
 }
 
 
+.aimg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  width: 230px; 
+  height: 230px; 
+  border-radius: 30%; 
+  z-index: 2; 
+}
