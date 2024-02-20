@@ -1,0 +1,43 @@
+/* About.module.css */
+
+@font-face {
+  font-family: 'Apple Gothic';
+  src: url('../src/assets/AppleSDGothicNeoR.ttf') format('truetype');
+}
+
+.container {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    height: 100vh; 
+    padding: 0 20px;
+  }
+  
+  .rectangle {
+    width: 300px; 
+    height: 430px; 
+    background-color: #FAE8C2; 
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .square {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-color: #F9EFD9;
+    top: 34px;
+    left: 34px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 1, 1, 0.2);
+  }
+
+  .text {
+    font-family: "Apple Gothic", sans-serif;
+    color: #5E554E;
+    margin-top: 70px;
+    margin-left: 50%;
+    font-weight: bold;
+    font-size: 18px;
+  }

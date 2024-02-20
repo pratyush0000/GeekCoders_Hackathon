@@ -1,14 +1,37 @@
-// import styles from './About.module.css'
-import Navbar from "../components/Navbar"
+import React from 'react';
+import Navbar from "../components/Navbar";
 import Ellipses from "../components/Ellipses";
+import styles from './about.module.css';
 
-const about=()=>{
+const About = () => {
   return (
     <>
       <Navbar />
-      <Ellipses /> 
-    </>
-  )
-}
+      <Ellipses />
+      <div className={styles.container}>
+        <div className={styles.rectangle}>
+          <div className={styles.square}></div>
+          <div className={styles.text}>Tanya Edlyn</div>
+        </div>
+        <div className={styles.rectangle}>
+          {/* < className={styles.text}>Pr */}
+          <div className={styles.square}></div>
+          <div className={styles.text}>Pratyush Kamal</div>
+        </div>
+        <div className={styles.rectangle}>
+          {/* <div className={styles.text}>Akaash Emmanuel</div> */}
+          <div className={styles.square}></div>
+          <div className={styles.text}>Akaash Emmanuel</div>
+        </div>
+        <div className={styles.rectangle}>
+          {/* <div className={styles.text}>Rohan Guthikonda</div> */}
+          <div className={styles.square}></div>
+          <div className={styles.text}>Rohan Guthikonda</div>
 
-export default about
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default About;
